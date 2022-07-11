@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".uidesign.DeclineFragment">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/TOMATORED"
+      android:gravity="center">
+      <ImageView
+          android:id="@+id/imgdecline"
+          android:layout_width="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_height="wrap_content"
+          android:src="@drawable/decline" />
+
+      <TextView
+          android:id="@+id/tvthanku"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/imgdecline"
+          android:layout_centerInParent="true"
+          android:text="We are feeling bad about it!"
+          android:textColor="@color/white"
+          android:textSize="26dp"
+          android:textStyle="bold" />
+
+      <TextView
+          android:id="@+id/tvtext1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/tvthanku"
+          android:layout_centerInParent="true"
+          android:layout_marginTop="10dp"
+          android:layout_centerHorizontal="true"
+          android:text="You have declined the booking"
+          android:textColor="@color/white"
+          android:textSize="20dp"
+          />
+
+      <TextView
+          android:id="@+id/tvtext2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/tvtext1"
+          android:layout_centerInParent="true"
+          android:layout_marginTop="25dp"
+          android:text="Booking ID: MG1234567890"
+          android:textColor="@color/white"
+          android:textSize="22dp" />
+
+      <TextView
+          android:id="@+id/tvtext3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/tvtext2"
+          android:layout_centerInParent="true"
+          android:layout_marginTop="25dp"
+          android:text="₹ 6459"
+          android:textStyle="bold"
+          android:textColor="@color/white"
+          android:textSize="40dp" />
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/cardviewcontinue"
+          android:layout_width="250dp"
+          android:layout_height="55dp"
+          android:layout_centerHorizontal="true"
+          android:layout_below="@+id/tvtext3"
+          android:layout_centerInParent="true"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="20dp"
+          android:backgroundTint="@color/red"
+          app:cardCornerRadius="20dp">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Home"
+              android:textColor="@color/white"
+              android:textSize="20dp"
+              android:layout_centerHorizontal="true"
+              android:layout_gravity="center"
+              />
+
+      </androidx.cardview.widget.CardView>
+
+
+  </RelativeLayout>
+
+</FrameLayout>

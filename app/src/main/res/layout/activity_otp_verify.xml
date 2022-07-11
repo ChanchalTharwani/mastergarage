@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".uidesign.OtpVerifyActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/leftarrow"
+            android:layout_width="15dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/leftarrow" />
+
+        <TextView
+            android:id="@+id/tvone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="VERIFY" />
+
+        <TextView
+            android:id="@+id/tvtwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvone"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="25dp"
+            android:text="Customer will take delivery by Self"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tvthree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvtwo"
+            android:layout_marginLeft="13dp"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="25dp"
+            android:text="Verification" />
+
+        <TextView
+            android:id="@+id/tvfour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvtwo"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="27dp"
+            android:layout_marginRight="10dp"
+            android:text="Scan QR"
+            android:textColor="@color/blue2"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardviewphone"
+        android:layout_width="400dp"
+        android:layout_height="42dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="4dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            >
+
+            <ImageView
+                android:id="@+id/flag"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_right"
+                app:tint="@color/blue" />
+
+            <EditText
+                android:id="@+id/etphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/flag"
+                android:background="#00000000"
+                android:hint="ENTER OTP"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="OTP Sent to +91 8876543211"
+    android:textColor="@color/blue2"
+    android:layout_margin="8dp"
+    android:textSize="12sp"
+    />
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/blue"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"
+        android:padding="10dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="SUBMIT"/>
+
+
+    </LinearLayout>

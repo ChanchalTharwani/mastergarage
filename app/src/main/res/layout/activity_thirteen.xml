@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+    <ScrollView
+        android:id="@+id/nested"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:orientation="vertical"
+      android:layout_height="wrap_content">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <ImageView
+                  android:id="@+id/leftarrow"
+                  android:layout_width="15dp"
+                  android:layout_height="16dp"
+                  android:layout_marginLeft="13dp"
+                  android:layout_marginTop="15dp"
+                  android:src="@drawable/leftarrow" />
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true"
+                  android:layout_marginTop="15dp"
+                  android:text="Job Card" />
+
+          </RelativeLayout>
+
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="150dp"
+              android:layout_marginTop="20dp"
+              android:background="@color/yellow">
+
+
+              <TextView
+                  android:id="@+id/tvone"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="33dp"
+                  android:layout_marginTop="32dp"
+                  android:text="Job Card"
+                  android:textColor="@color/blue"
+                  android:textSize="18dp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:id="@+id/tvtwo"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginLeft="33dp"
+                  android:layout_marginTop="32dp"
+                  android:text="Maruti Suzuki XL6 Petrol"
+                  android:textColor="@color/black"
+                  android:textSize="12dp"
+                  android:textStyle="bold" />
+
+              <TextView
+                  android:id="@+id/tvthree"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_below="@+id/tvtwo"
+                  android:layout_centerHorizontal="true"
+                  android:text="MH 04 AB 3827"
+                  android:textColor="@color/black"
+                  android:textSize="12dp" />
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_below="@+id/tvthree"
+                  android:layout_marginTop="14dp"
+                  android:layout_marginLeft="20dp"
+
+                  android:layout_height="wrap_content">
+
+                  <LinearLayout
+                      android:layout_width="0dp"
+                      android:orientation="vertical"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent">
+
+                      <TextView
+                          android:id="@+id/tvfour"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/tvone"
+                          android:gravity="center"
+                          android:text="Engine no."
+                          android:textColor="@color/gray"
+                          android:textSize="12dp" />
+
+
+                      <TextView
+                          android:id="@+id/tvfive"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/tvfour"
+                          android:layout_marginTop="4dp"
+                          android:gravity="left"
+                          android:text="MACD1234WE2345"
+                          android:textColor="@color/black"
+                          android:textSize="12dp" />
+
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="0dp"
+                      android:orientation="vertical"
+                      android:layout_weight="1"
+                      android:layout_height="match_parent">
+
+                      <TextView
+                          android:id="@+id/tvsix"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/tvthree"
+                          android:layout_centerHorizontal="true"
+                          android:text="Chassis no."
+                          android:textColor="@color/gray"
+                          android:textSize="12dp" />
+
+                      <TextView
+                          android:id="@+id/tvseven"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/tvsix"
+                          android:layout_centerHorizontal="true"
+                          android:layout_marginTop="4dp"
+                          android:text="MACD1234WE2345 "
+                          android:textColor="@color/black"
+                          android:textSize="12dp" />
+
+
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="0dp"
+                      android:orientation="vertical"
+                      android:layout_weight="0.6"
+                      android:layout_height="match_parent">
+
+                      <TextView
+                          android:id="@+id/tveight"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_alignTop="@+id/tvsix"
+                          android:layout_alignParentRight="true"
+                          android:layout_marginRight="20dp"
+                          android:gravity="center"
+                          android:text="Kms Driven "
+                          android:textColor="@color/gray"
+                          android:textSize="12dp" />
+
+                      <TextView
+                          android:id="@+id/tvnine"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/tveight"
+                          android:layout_alignLeft="@+id/tveight"
+                          android:layout_alignParentRight="true"
+                          android:layout_marginTop="4dp"
+                          android:layout_marginRight="20dp"
+                          android:text="113456"
+                          android:textColor="@color/black"
+                          android:textSize="12dp" />
+
+                  </LinearLayout>
+              </LinearLayout>
+
+
+
+
+          </RelativeLayout>
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginStart="10dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginEnd="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:text="Body Damages &amp; Fuel"
+                  android:textColor="@color/black"
+                  android:textSize="16sp"
+                  android:textStyle="bold" />
+
+
+              <ImageView
+                  android:layout_width="20dp"
+                  android:layout_height="26dp"
+                  android:layout_alignParentRight="true"
+                  android:layout_gravity="right"
+                  android:layout_marginStart="10dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginEnd="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:src="@drawable/ic_arrow_up" />
+          </RelativeLayout>
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:id="@+id/tvall24img"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_margin="10dp"
+                  android:text="All images (24)"
+                  android:textColor="@color/gray"
+                  android:textSize="12sp" />
+
+
+              <ImageView
+                  android:id="@+id/imgcross"
+                  android:layout_width="10dp"
+                  android:layout_height="10dp"
+                  android:layout_alignParentRight="true"
+                  android:layout_gravity="right"
+                  android:layout_margin="10dp"
+                  android:src="@drawable/cross_close" />
+
+              <androidx.recyclerview.widget.RecyclerView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/RVThirteen"
+                  android:layout_below="@id/tvall24img"
+                  android:layout_marginStart="10dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginEnd="10dp"
+                  android:layout_marginBottom="10dp" />
+          </RelativeLayout>
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginStart="10dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginEnd="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:text="Demanded Jobs"
+                  android:textColor="@color/black"
+                  android:textSize="16sp"
+                  android:textStyle="bold" />
+
+
+              <ImageView
+                  android:layout_width="20dp"
+                  android:layout_height="26dp"
+                  android:layout_alignParentRight="true"
+                  android:layout_gravity="right"
+                  android:layout_margin="10dp"
+                  android:src="@drawable/ic_arrow_up" />
+          </RelativeLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:orientation="vertical">
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Starter Motor Repair"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="left"
+                  android:layout_gravity="left"
+                  android:layout_margin="5dp"
+                  />
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Basic Service"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="left"
+                  android:layout_gravity="left"
+                  android:layout_margin="5dp"/>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Engine Scanning"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="left"
+                  android:layout_gravity="left"
+                  android:layout_margin="5dp"
+                  />
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Inspection &amp; Diagnostics"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="left"
+                  android:layout_gravity="left"
+                  android:layout_margin="5dp" />
+
+          </LinearLayout>
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginStart="10dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginEnd="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:text="Services Recommended"
+                  android:textColor="@color/black"
+                  android:textSize="16sp"
+                  android:textStyle="bold" />
+
+          </RelativeLayout>
+
+          <androidx.cardview.widget.CardView
+              android:id="@+id/cardview"
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:layout_marginHorizontal="20dp"
+              android:layout_below="@id/tvtext13"
+              android:layout_marginStart="10dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginEnd="10dp"
+              android:layout_marginBottom="10dp"
+              app:cardCornerRadius="10sp">
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+                  <RelativeLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:paddingVertical="8dp">
+
+                      <TextView
+                          android:id="@+id/tvserviceone"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentLeft="true"
+                          android:text="Service 1"
+                          android:layout_margin="3dp"
+                          android:textColor="@color/gray"
+                          android:textSize="15sp" />
+                      <TextView
+                          android:id="@+id/tvbt"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/tvserviceone"
+                          android:layout_alignParentLeft="true"
+                          android:text="Battery Termninal"
+                          android:layout_margin="3dp"
+                          android:textColor="@color/blue"
+                          android:textSize="15sp" />
+                      <TextView
+                          android:id="@+id/tvap"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/tvbt"
+                          android:layout_alignParentLeft="true"
+                          android:text="Approval Pending"
+                          android:layout_margin="3dp"
+                          android:textColor="@color/red"
+                          android:textSize="15sp" />
+                      <TextView
+                          android:id="@+id/tvprice"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentRight="true"
+                          android:text="₹1,459"
+                          android:layout_margin="5dp"
+                          android:textColor="@color/black"
+                          android:textSize="15sp" />
+
+                      <TextView
+                          android:id="@+id/tvviewdetails"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/tvprice"
+                          android:layout_alignParentRight="true"
+                          android:layout_marginStart="5dp"
+                          android:layout_marginTop="5dp"
+                          android:layout_marginEnd="5dp"
+                          android:layout_marginBottom="5dp"
+                          android:text="View Details"
+                          android:textColor="@color/blue2"
+                          android:textSize="15sp" />
+                  </RelativeLayout>
+
+                  <RelativeLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:paddingVertical="8dp">
+
+                      <TextView
+                          android:id="@+id/tvservicetwo"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentLeft="true"
+                          android:text="Service 2"
+                          android:layout_margin="3dp"
+                          android:textColor="@color/gray"
+                          android:textSize="15sp" />
+                      <TextView
+                          android:id="@+id/tves"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/tvservicetwo"
+                          android:layout_alignParentLeft="true"
+                          android:text="Engine Scanning"
+                          android:layout_margin="3dp"
+                          android:textColor="@color/blue"
+                          android:textSize="15sp" />
+                      <TextView
+                          android:id="@+id/tvappoved"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/tves"
+                          android:layout_alignParentLeft="true"
+                          android:text="Approved"
+                          android:layout_margin="3dp"
+                          android:textColor="@color/green"
+                          android:textSize="15sp" />
+                      <TextView
+                          android:id="@+id/tvpricesevicetwo"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentRight="true"
+                          android:text="₹ 999"
+                          android:layout_margin="5dp"
+                          android:textColor="@color/black"
+                          android:textSize="15sp" />
+                      <TextView
+                          android:id="@+id/tvviewdetailsservicetwo"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_below="@+id/tvpricesevicetwo"
+                          android:layout_alignParentRight="true"
+                          android:text="View Details"
+                          android:layout_margin="5dp"
+                          android:textColor="@color/blue2"
+                          android:textSize="15sp" />
+                  </RelativeLayout>
+              </LinearLayout>
+
+          </androidx.cardview.widget.CardView>
+
+
+          <com.google.android.material.button.MaterialButton
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              android:layout_marginTop="20dp"
+              android:backgroundTint="@color/blue"
+              android:textStyle="bold"
+              android:padding="10dp"
+              android:fontFamily="@font/poppins_bold"
+              android:text="Add Service Recommendations"/>
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginStart="10dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginEnd="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:text="Inventory Checklist"
+                  android:textColor="@color/black"
+                  android:textSize="16sp"
+                  android:textStyle="bold" />
+
+
+              <ImageView
+                  android:layout_width="20dp"
+                  android:layout_height="26dp"
+                  android:layout_alignParentRight="true"
+                  android:layout_gravity="right"
+                  android:layout_marginStart="10dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginEnd="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:src="@drawable/ic_arrow_up" />
+          </RelativeLayout>
+
+
+          <LinearLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="10dp"
+              android:orientation="vertical">
+              <CheckBox
+                  android:layout_width="wrap_content"
+                  android:layout_height="25dp"
+                  android:text="Owners Manual"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="center"
+                  />
+              <CheckBox
+                  android:layout_width="wrap_content"
+                  android:layout_height="25dp"
+                  android:text="Infotainment System"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="center"
+                  />
+              <CheckBox
+                  android:layout_width="wrap_content"
+                  android:layout_height="25dp"
+                  android:text="Speakers          5  Nos."
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="center"
+
+                  />
+              <CheckBox
+                  android:layout_width="wrap_content"
+                  android:layout_height="25dp"
+                  android:text="Key Chain"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="center"/>
+              <CheckBox
+                  android:layout_width="wrap_content"
+                  android:layout_height="25dp"
+                  android:text="Key Remote"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="center" />
+              <CheckBox
+                  android:layout_width="wrap_content"
+                  android:layout_height="25dp"
+                  android:text="Doll / Idols          5  Nos."
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="center"/>
+              <CheckBox
+                  android:layout_width="wrap_content"
+                  android:layout_height="25dp"
+                  android:text="Air Freshner"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="center"/>
+              <CheckBox
+                  android:layout_width="wrap_content"
+                  android:layout_height="25dp"
+                  android:text="Mobile Charger"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="center"/>
+              <CheckBox
+                  android:layout_width="wrap_content"
+                  android:layout_height="25dp"
+                  android:text="Upholstery torn/broken"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="center"/>
+              <CheckBox
+                  android:layout_width="wrap_content"
+                  android:layout_height="25dp"
+                  android:text="AJack &amp; Handle"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="center"/>
+              <CheckBox
+                  android:layout_width="wrap_content"
+                  android:layout_height="25dp"
+                  android:text="Floor Mats          5  Nos."
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="center"/>
+              <CheckBox
+                  android:layout_width="wrap_content"
+                  android:layout_height="25dp"
+                  android:text="Seat Cover"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="center"/>
+              <CheckBox
+                  android:layout_width="wrap_content"
+                  android:layout_height="25dp"
+                  android:text="First Aid Kit"
+                  android:textColor="@color/black"
+                  android:textSize="15sp"
+                  android:gravity="center"/>
+
+          </LinearLayout>
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginStart="10dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginEnd="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:text="Service Instructions "
+                  android:textColor="@color/black"
+                  android:textSize="16sp"
+                  android:textStyle="bold" />
+
+
+              <ImageView
+                  android:layout_width="20dp"
+                  android:layout_height="26dp"
+                  android:layout_alignParentRight="true"
+                  android:layout_gravity="right"
+                  android:layout_marginStart="10dp"
+                  android:layout_marginTop="10dp"
+                  android:layout_marginEnd="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:src="@drawable/downarror" />
+          </RelativeLayout>
+
+      </LinearLayout>
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/cardviewone"
+          android:layout_width="400dp"
+          android:layout_height="80dp"
+          android:layout_marginStart="10dp"
+          android:layout_marginTop="10dp"
+          android:layout_marginEnd="10dp"
+          android:layout_marginBottom="10dp"
+          app:cardCornerRadius="10sp">
+
+          <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginStart="10dp"
+
+                  android:layout_marginTop="10dp"
+                  android:layout_marginEnd="10dp"
+                  android:layout_marginBottom="10dp"
+                  android:text="@string/instructions" />
+          </RelativeLayout>
+      </androidx.cardview.widget.CardView>
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+          android:id="@+id/constraintLayout1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="5dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintHorizontal_bias="0.0"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent">
+
+          <androidx.appcompat.widget.AppCompatImageView
+              android:id="@+id/appCompatImageView1"
+              android:layout_width="60dp"
+              android:layout_height="60dp"
+              android:padding="5dp"
+              android:src="@drawable/profile"
+              app:layout_constraintStart_toStartOf="parent"
+              app:layout_constraintTop_toTopOf="parent" />
+
+
+          <LinearLayout
+              android:id="@+id/linearLayout4"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              app:layout_constraintStart_toEndOf="@+id/appCompatImageView1"
+              app:layout_constraintTop_toTopOf="parent">
+
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:text="Alex Morgan"
+                  android:textColor="@color/blue"
+                  android:textSize="20dp"
+                  android:textStyle="bold" />
+
+              <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:gravity="center">
+
+                  <androidx.appcompat.widget.AppCompatImageView
+                      android:layout_width="15dp"
+                      android:layout_height="15dp"
+                      android:layout_gravity="center"
+                      android:layout_marginRight="5dp"
+                      android:src="@drawable/location"
+                      app:tint="@color/blue" />
+
+
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Kandivali East-401 105" />
+
+
+              </LinearLayout>
+
+
+          </LinearLayout>
+
+
+          <androidx.appcompat.widget.AppCompatImageView
+              android:id="@+id/appCompatImageView21"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_margin="10dp"
+              android:layout_marginEnd="14dp"
+              android:background="@color/yellow"
+              android:src="@drawable/chat_4"
+              app:layout_constraintBottom_toBottomOf="@+id/appCompatImageView1"
+              app:layout_constraintEnd_toStartOf="@+id/appCompatImageView31"
+              app:layout_constraintTop_toTopOf="parent" />
+
+          <androidx.appcompat.widget.AppCompatImageView
+              android:id="@+id/appCompatImageView31"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_margin="5dp"
+              android:background="@color/yellow"
+              android:src="@drawable/chat_2"
+              app:layout_constraintBottom_toBottomOf="@+id/appCompatImageView1"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintTop_toTopOf="@+id/linearLayout4" />
+
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+  </LinearLayout>
+    </ScrollView>
+
+</layout>

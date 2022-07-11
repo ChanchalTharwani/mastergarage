@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".uidesign.AwaitingConfirmationFragment">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:context=".ui.login.LoginActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/yellow"
+            tools:context=".activity.SubmitActivity">
+
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:text="Hello (Partner Name),"
+                android:textColor="@color/blue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvname"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:text="Awaiting Confirmation" />
+
+            <TextView
+                android:id="@+id/tvtext1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtext"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/blue"
+                android:layout_centerInParent="true"
+                android:text="Congratulations! You got a new booking" />
+
+            <TextView
+                android:id="@+id/tvtext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtext1"
+                android:layout_marginTop="16dp"
+                android:textSize="20sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:text="₹ 6459" />
+
+            <TextView
+                android:id="@+id/tvtext3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvtext2"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:text="Time Left :2 min 5 sec"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <androidx.cardview.widget.CardView
+
+                android:id="@+id/cardview"
+                android:layout_width="336dp"
+                android:layout_height="450dp"
+                android:layout_below="@id/tvtext3"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/white"
+                app:cardCornerRadius="16sp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp">
+
+                    <TextView
+                        android:id="@+id/tvtext4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Maruti Suzuki" />
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/car" />
+
+                    <TextView
+                        android:id="@+id/tvtext5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvtext4"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Baleno"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvtext6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvtext5"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Petrol"
+                        android:textColor="@color/gray"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/view1"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/tvtext6"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/gray" />
+
+                    <TextView
+                        android:id="@+id/tvtext7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/view1"
+                        android:layout_marginLeft="7dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Appointment"
+                        android:textColor="@color/blue"
+                        android:textSize="15sp" />
+
+                    <!--            <TextView-->
+                    <!--                android:id="@+id/tvtext8"-->
+                    <!--                android:layout_width="wrap_content"-->
+                    <!--                android:layout_height="wrap_content"-->
+                    <!--                android:text="Time Slot"-->
+                    <!--                android:textSize="15sp"-->
+                    <!--                android:textColor="@color/darkblue"-->
+                    <!--                android:layout_toRightOf="@+id/tvtext7"-->
+                    <!--                android:layout_marginTop="10dp"/>-->
+
+                    <TextView
+                        android:id="@+id/tvtext9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvtext7"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="7dp"
+                        android:text=" 18th October 2020"
+                        android:textColor="@color/blue2"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvtext10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvtext9"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="7dp"
+                        android:text=" 4.00 PM -5.00 PM"
+                        android:textColor="@color/blue2"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/imagerescdule"
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:layout_below="@+id/tvtext9"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_toLeftOf="@+id/tvtext11"
+                        android:src="@drawable/reschedule" />
+
+                    <TextView
+                        android:id="@+id/tvtext11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvtext9"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="5dp"
+                        android:text="Reschedule"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/tvtext11"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/gray" />
+
+
+                    <TextView
+                        android:id="@+id/tvtext12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/view2"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="7dp"
+                        android:text=" Services"
+                        android:textColor="@color/gray"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvtext13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tvtext12"
+                        android:layout_marginLeft="6dp"
+                        android:layout_marginTop="6dp"
+                        android:text=" Basic Service, Car Inspection, Starter Motor Repair, Engine Scanning"
+                        android:textColor="@color/blue2"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardviewviewdetails"
+                        android:layout_width="400dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/tvtext13"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        app:cardCornerRadius="10sp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingVertical="8dp">
+
+                            <TextView
+                                android:id="@+id/tvtext14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="View Details"
+                                android:textColor="@color/blue"
+                                android:textSize="15sp" />
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardviewdecline"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/cardviewviewdetails"
+                        android:layout_marginLeft="10dp"
+                        android:backgroundTint="@color/red"
+                        app:cardCornerRadius="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="Decline"
+                                android:textColor="@color/white"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardviewconfirm"
+                        android:layout_width="150dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/cardviewviewdetails"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@+id/cardviewdecline"
+                        android:backgroundTint="@color/green"
+                        app:cardCornerRadius="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:text="Confirm"
+                                android:textColor="@color/white"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                        </RelativeLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginVertical="20dp"
+                android:layout_below="@+id/cardview"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:elevation="1dp"
+                android:src="@drawable/downlogoo"
+                app:civ_border_color="#FFffff"
+                app:civ_border_width="5dp" />
+
+<!--            <ImageView-->
+<!--                android:layout_width="54dp"-->
+<!--                android:layout_height="54dp"-->
+<!--                android:layout_below="@+id/cardview"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_marginTop="17dp"-->
+<!--                android:background="@color/blue"-->
+<!--                android:backgroundTint="@color/blue"-->
+<!--                android:src="@drawable/downlogoo" />-->
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+</FrameLayout>

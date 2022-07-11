@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".uidesign.JobCardFragment">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/leftarrow"
+                    android:layout_width="15dp"
+                    android:layout_height="16dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/leftarrow" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="15dp"
+                    android:text="Job Card" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/yellow">
+
+
+                <TextView
+                    android:id="@+id/tvone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="32dp"
+                    android:text="Job Card"
+                    android:textColor="@color/blue"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvtwo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_centerHorizontal="true"
+                    android:text="Maruti Suzuki XL6 Petrol"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvthree"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvtwo"
+                    android:layout_centerHorizontal="true"
+                    android:text="MH 04 AB 3827"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+                <TextView
+                    android:id="@+id/tvfour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvone"
+                    android:text="Engine no."
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="14dp"
+                    android:textColor="@color/gray"
+                    android:gravity="left"
+                    android:textSize="12dp" />
+
+
+                <TextView
+                    android:id="@+id/tvfive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvfour"
+                    android:text="MACD1234WE2345"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/black"
+                    android:gravity="left"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tvsix"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvthree"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="4dp"
+                    android:text="Chassis no."
+                    android:textColor="@color/gray"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tvseven"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tvsix"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="4dp"
+                    android:text="MACD1234WE2345 "
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tveight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kms Driven "
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/gray"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/tvnine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="113456"
+                    android:layout_below="@+id/tveight"
+                    android:layout_toRightOf="@+id/tvseven"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+            </RelativeLayout>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/RVOne" />
+        </LinearLayout>
+
+    </FrameLayout>
+</layout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/drawable/activity_main__tab_background.xml" value="0.111" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/drawable/button_background.xml" value="0.111" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/drawable/circular.xml" value="0.111" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/drawable/gradient_background.xml" value="0.111" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/drawable/main_background.xml" value="0.111" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/drawable/ratingbar_full_yellow_16.xml" value="0.111" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_add_driver.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_add_service.xml" value="0.30458715596330277" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_add_service_advisor.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_add_service_in_discount.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_chat.xml" value="0.21654749744637386" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_choose_model_vehicle.xml" value="0.21654749744637386" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_choose_vehicle.xml" value="0.21654749744637386" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_job_card.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_job_card2.xml" value="0.264" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_job_card_details.xml" value="0.21654749744637386" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_main.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_otp.xml" value="0.2" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_otp_verify.xml" value="0.176" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_profile.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_service_recommendations2.xml" value="0.28719723183391005" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_seventy_five.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_thirteen.xml" value="0.264" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_thirty_four.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/activity_vehicle_details6.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/fragment_awaiting_confirmation.xml" value="0.2" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/fragment_awaiting_customer_confirmation.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/fragment_booking.xml" value="0.1537037037037037" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/fragment_booking2.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/fragment_booking4.xml" value="0.264" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/fragment_confirm.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/fragment_decline.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/fragment_delivered.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/fragment_job_card.xml" value="0.3068017366136035" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/fragment_on_going.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/fragment_pending.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/item_view_job_card.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/item_view_thirteen.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/item_view_thirty_four.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/layout_delivered.xml" value="0.4" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/layout_ongoing.xml" value="0.4" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/layout_pending.xml" value="0.4" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/layout/saved_outlet_item_profile.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/garvi/Downloads/mastergarage/app/src/main/res/menu/navigation_menu.xml" value="0.1537037037037037" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
